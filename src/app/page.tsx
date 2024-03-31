@@ -26,7 +26,7 @@ function Section3() {
 export default function Me() {
   return (
     <main>
-      <div className="z-10 fixed bg-cover w-full h-screen bg-[url('/misohagi.jpg')] opacity" />
+      <div className="z-10 fixed bg-cover w-full h-screen bg-[url('/me/misohagi.jpg')] opacity" />
       <div className="z-20 relative">
         <Section1 />
         <Section2 />
