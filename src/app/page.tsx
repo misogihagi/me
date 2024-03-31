@@ -51,12 +51,17 @@ export default function Me() {
           <SoftwareArchitect />
         </div>
         <div
-          className="w-full h-screen flex items-center justify-center"
+          className="w-full h-screen flex flex-wrap items-center justify-center"
           style={{ backgroundColor: '#ADB367' }}
         >
-          <h1 className={`text-3xl font-bold ${fontKO.className}`}>
-            茶しばかへん?
-          </h1>
+          <div className="w-full flex items-center justify-center">
+            <h1 className={`text-3xl font-bold ${fontKO.className}`}>
+              茶しばかへん?
+            </h1>
+          </div>
+          <div>
+            <iframe title="kyouno-neko" width={800} height={800} src="https://misogihagi.github.io/kyouno-neko/" />
+          </div>
         </div>
       </div>
     </main>
