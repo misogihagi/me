@@ -1,7 +1,15 @@
 import localFont from 'next/font/local';
 
-import Frontend from './components/skills/Frontend';
 import Section2 from './components/Section2';
+import Backend from './components/skills/Backend';
+import CyberSecurity from './components/skills/CyberSecurity';
+import DevOps from './components/skills/DevOps';
+import Frontend from './components/skills/Frontend';
+import FullStack from './components/skills/FullStack';
+import MLOps from './components/skills/MLOps';
+import PostgreSQL from './components/skills/PostgreSQL';
+import QA from './components/skills/QA';
+import SoftwareArchitect from './components/skills/SoftwareArchitect';
 
 const fontKO = localFont({ src: './KaiseiOpti-Medium.ttf' });
 function Section1() {
@@ -33,6 +41,14 @@ export default function Me() {
         <Section3 />
         <div className="w-ful  bg-slate-50">
           <Frontend />
+          <Backend />
+          <FullStack />
+          <DevOps />
+          <MLOps />
+          <CyberSecurity />
+          <PostgreSQL />
+          <QA />
+          <SoftwareArchitect />
         </div>
         <div
           className="w-full h-screen flex items-center justify-center"
